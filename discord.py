@@ -1,7 +1,6 @@
 import discord
 from discord.ext import commands
 
-TOKEN = "MTA5MTUzMjE1ODEwNTAzNDg3Mw.GyoE8l.1Jgs3G3ZRS5yXfPvk3mzwclZcRkM1AsNV9EPeU"
 prefix = ">"
 intents = discord.Intents().all()
 bot = commands.Bot(command_prefix=prefix, intents=intents)
@@ -16,4 +15,4 @@ async def on_ready():
 async def ping(ctx):
       await ctx.send("Pong !")
 
-bot.run(TOKEN)
+bot.run("MTA5MTUzMjE1ODEwNTAzNDg3Mw.GyoE8l.1Jgs3G3ZRS5yXfPvk3mzwclZcRkM1AsNV9EPeU")
